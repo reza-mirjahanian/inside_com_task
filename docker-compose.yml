@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  inside_api:
+    build: ./Backend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./Backend:/app
+
