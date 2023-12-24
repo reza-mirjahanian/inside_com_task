@@ -2,6 +2,11 @@
 
 # Reza-Mirjahanian 
 
+![Alt text](help.png?raw=true "Postman")
+
+#### Docker setup (In the root path)
+    docker-compose up
+
 #### How run tests:
 
     bundle exec rspec
@@ -32,7 +37,7 @@
 
 #### Info:
 - 📌 Ruby on Rails 7.1.2
-- 📌 There are 36 or 37 weeks in a 9-month period. I have chosen 36.".
+- 📌 There are 36 or 37 weeks in a 9-month period. I have chosen 36.
 - 📌 Usually, we pass arguments to an API. I have hardcoded them in the controller for simplicity.
 - 📌 Generating a truly random number is difficult.
 - 📌 There is no consideration for reusing fluorescent tubes. We throw them away.
@@ -43,6 +48,7 @@
 - ✅ Fluorescent tubes were broken in 1 year.
 - ✅ Money do fluorescent tubes cost the University.
 - ✅ Add unit tests.
+- ✅ Add docker-compose.
 
 #### Todo:
 - 💡 Improve testing (E2E, ...)
